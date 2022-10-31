@@ -1,4 +1,3 @@
-var 功德 = document.getElementById('sp').innerHTML;
 function btn() {
     document.getElementById('sp').innerText++;
     document.getElementById("mym").play();
