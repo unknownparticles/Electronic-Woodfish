@@ -1,8 +1,7 @@
-var 功德 = document.getElementById('sp').innerHTML;
 function btn() {
     document.getElementById('sp').innerText++;
     document.getElementById("mym").play();
-    document.getElementById("img1").src = './电子木鱼1.png';
+    document.getElementById("img1").src = './dzmy.png';
     setTimeout(cb, 100);
     if (document.getElementById('sp').innerHTML % 100 == 0) {
         document.getElementById("lau").play();
@@ -26,7 +25,7 @@ function ys(x) {
             break;
         case 3:
             document.getElementById('sp1').innerHTML = "功德数：";
-            document.getElementById("mym").src = './my3.mp3';
+            document.getElementById("mym").src = './my4.mp3';
             break;
         case 4:
             document.getElementById('sp1').innerHTML = "只因数：";
