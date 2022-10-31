@@ -18,22 +18,22 @@ function ys(x) {
     switch (x) {
         case 1:
             document.getElementById('sp1').innerHTML = "功德数：";
-            document.getElementById("mym").src = 'https://s1.aigei.com/pvaud/aud/mp3/bb/bb8df72d914041858a3402d6a9b820e4.mp3?e=1667095740&token=P7S2Xpzfz11vAkASLTkfHN7Fw-oOZBecqeJaxypL:mjZsTgbvWN3MFQqGvyaACk8N_AU=';
+            document.getElementById("mym").src = './my1.mp3';
             break;
         case 2:
             document.getElementById('sp1').innerHTML = "功德数：";
-            document.getElementById("mym").src = 'https://s1.aigei.com/pvaud/aud/mp3/8d/8da615ef750e421788240f4632ccc29c.mp3?e=1667095320&token=P7S2Xpzfz11vAkASLTkfHN7Fw-oOZBecqeJaxypL:K305w02pYNGFExSbZR8Aqlvn6PA=';
+            document.getElementById("mym").src = './my2.mp3';
             break;
         case 3:
             document.getElementById('sp1').innerHTML = "功德数：";
-            document.getElementById("mym").src = 'https://s1.aigei.com/pvaud/aud/mp3/5e/5e07de5af336480b90e69588e1174327.mp3?e=1667095320&token=P7S2Xpzfz11vAkASLTkfHN7Fw-oOZBecqeJaxypL:xAqTBIULuXuYBCowfAsozXUKzGM=';
+            document.getElementById("mym").src = './my3.mp3';
             break;
         case 4:
             document.getElementById('sp1').innerHTML = "只因数：";
-            document.getElementById("mym").src = 'https://s1.aigei.com/src/aud/mp3/11/112ad54a897743b6957a68c030bc259b.mp3?e=1667095320&token=P7S2Xpzfz11vAkASLTkfHN7Fw-oOZBecqeJaxypL:5v7IclJaiq5K7Om0bFaIHBnp6mQ=';
+            document.getElementById("mym").src = './zy.mp3';
             break;
         default:
-            document.getElementById("mym").src = 'https://s1.aigei.com/pvaud/aud/mp3/93/93227b35092f4d07a10c9e38e0abfb8b.mp3?e=1667092740&token=P7S2Xpzfz11vAkASLTkfHN7Fw-oOZBecqeJaxypL:UfdH7NH5haeTyfND2gpUr8FyX9s=';
+            document.getElementById("mym").src = './my1.mp3';
             break;
     }
 }
