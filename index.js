@@ -15,20 +15,16 @@ function cb() {
 function ys(x) {
     switch (x) {
         case 1:
-            document.getElementById('sp1').innerHTML = "功德数：";
             document.getElementById("mym").src = './my1.mp3';
             break;
         case 2:
-            document.getElementById('sp1').innerHTML = "功德数：";
             document.getElementById("mym").src = './my2.mp3';
             break;
         case 3:
-            document.getElementById('sp1').innerHTML = "功德数：";
             document.getElementById("mym").src = './my4.mp3';
             break;
         case 4:
-            document.getElementById('sp1').innerHTML = "只因数：";
-            document.getElementById("mym").src = './zy.mp3';
+            document.getElementById("mym").src = './my3.mp3';
             break;
         default:
             document.getElementById("mym").src = './my1.mp3';
