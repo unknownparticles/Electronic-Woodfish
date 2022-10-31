@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+}
+
+.div1 {
+    background-color: black;
+    height: full;
+}
+
+img {
+    height: 30%;
+    width: 30%;
+}
+
+.btn1 {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    margin-top: 20%;
+    color: white;
+}
+
+.sp1 {
+    color: white;
+}
+
+.tb1 {
+    color: white;
+    cursor: pointer;
+}
